@@ -1,12 +1,12 @@
 Attribute VB_Name = "Module1"
-Sub °sºë»¼¼WÁ`©M³Ì¤j­È³Ì¤p­È()
-Attribute °sºë»¼¼WÁ`©M³Ì¤j­È³Ì¤p­È.VB_Description = "°sºë¼Æ¶q»¼¼W±Æ§ÇÁ`©M³Ì¤j­È³Ì¤p­È"
-Attribute °sºë»¼¼WÁ`©M³Ì¤j­È³Ì¤p­È.VB_ProcData.VB_Invoke_Func = "r\n14"
+Sub é…’ç²¾éå¢ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼()
+Attribute é…’ç²¾éå¢ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼.VB_Description = "é…’ç²¾æ•¸é‡éå¢æ’åºç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼"
+Attribute é…’ç²¾éå¢ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼.VB_ProcData.VB_Invoke_Func = "r\n14"
 '
-' °sºë»¼¼WÁ`©M³Ì¤j­È³Ì¤p­È ¥¨¶°
-' °sºë¼Æ¶q»¼¼W±Æ§ÇÁ`©M³Ì¤j­È³Ì¤p­È
+' é…’ç²¾éå¢ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼ å·¨é›†
+' é…’ç²¾æ•¸é‡éå¢æ’åºç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼
 '
-' §Ö³tÁä: Ctrl+r
+' å¿«é€Ÿéµ: Ctrl+r
 '
     Columns("B:B").Select
     ActiveWindow.ScrollRow = 2
@@ -165,10 +165,10 @@ Attribute °sºë»¼¼WÁ`©M³Ì¤j­È³Ì¤p­È.VB_ProcData.VB_Invoke_Func = "r\n14"
     ActiveWindow.ScrollRow = 3
     ActiveWindow.ScrollRow = 2
     ActiveWindow.ScrollRow = 1
-    ActiveWorkbook.Worksheets("¤u§@ªí1").Sort.SortFields.Clear
-    ActiveWorkbook.Worksheets("¤u§@ªí1").Sort.SortFields.Add Key:=Range("B2:B553"), _
+    ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort.SortFields.Add Key:=Range("B2:B553"), _
         SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
-    With ActiveWorkbook.Worksheets("¤u§@ªí1").Sort
+    With ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort
         .SetRange Range("B1:B553")
         .Header = xlYes
         .MatchCase = False
@@ -191,20 +191,20 @@ Attribute °sºë»¼¼WÁ`©M³Ì¤j­È³Ì¤p­È.VB_ProcData.VB_Invoke_Func = "r\n14"
     ActiveCell.FormulaR1C1 = "=SUM(R2C[-3]:R1048576C[-3])"
     Range("G4").Select
 End Sub
-Sub °sºë»¼´îÁ`©M³Ì¤j­È³Ì¤p­È()
-Attribute °sºë»¼´îÁ`©M³Ì¤j­È³Ì¤p­È.VB_Description = "»¼´î+³Ì¤j­È+³Ì¤p­È"
-Attribute °sºë»¼´îÁ`©M³Ì¤j­È³Ì¤p­È.VB_ProcData.VB_Invoke_Func = "t\n14"
+Sub é…’ç²¾éæ¸›ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼()
+Attribute é…’ç²¾éæ¸›ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼.VB_Description = "éæ¸›+æœ€å¤§å€¼+æœ€å°å€¼"
+Attribute é…’ç²¾éæ¸›ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼.VB_ProcData.VB_Invoke_Func = "t\n14"
 '
-' °sºë»¼´îÁ`©M³Ì¤j­È³Ì¤p­È ¥¨¶°
-' »¼´î+³Ì¤j­È+³Ì¤p­È
+' é…’ç²¾éæ¸›ç¸½å’Œæœ€å¤§å€¼æœ€å°å€¼ å·¨é›†
+' éæ¸›+æœ€å¤§å€¼+æœ€å°å€¼
 '
-' §Ö³tÁä: Ctrl+t
+' å¿«é€Ÿéµ: Ctrl+t
 '
     Columns("B:B").Select
-    ActiveWorkbook.Worksheets("¤u§@ªí1").Sort.SortFields.Clear
-    ActiveWorkbook.Worksheets("¤u§@ªí1").Sort.SortFields.Add Key:=Range("B1"), _
+    ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort.SortFields.Add Key:=Range("B1"), _
         SortOn:=xlSortOnValues, Order:=xlAscending, DataOption:=xlSortNormal
-    With ActiveWorkbook.Worksheets("¤u§@ªí1").Sort
+    With ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort
         .SetRange Range("A1:B553")
         .Header = xlYes
         .MatchCase = False
@@ -213,10 +213,10 @@ Attribute °sºë»¼´îÁ`©M³Ì¤j­È³Ì¤p­È.VB_ProcData.VB_Invoke_Func = "t\n14"
         .Apply
     End With
     Columns("B:B").Select
-    ActiveWorkbook.Worksheets("¤u§@ªí1").Sort.SortFields.Clear
-    ActiveWorkbook.Worksheets("¤u§@ªí1").Sort.SortFields.Add Key:=Range("B2:B553"), _
+    ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort.SortFields.Clear
+    ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort.SortFields.Add Key:=Range("B2:B553"), _
         SortOn:=xlSortOnValues, Order:=xlDescending, DataOption:=xlSortNormal
-    With ActiveWorkbook.Worksheets("¤u§@ªí1").Sort
+    With ActiveWorkbook.Worksheets("å·¥ä½œè¡¨1").Sort
         .SetRange Range("B1:B553")
         .Header = xlYes
         .MatchCase = False
