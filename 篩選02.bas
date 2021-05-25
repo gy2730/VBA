@@ -18,10 +18,10 @@ Dim targetCIdex As Integer
     Range("A1:I2497").Select
     Selection.Copy
     Workbooks.Add
-  
+    ActiveSheet.Paste '貼在工作表1
     Application.CutCopyMode = False
-    Sheets("工作表2").Select
-    Sheets("工作表2").Name = username
+    Sheets("工作表1").Select
+    Sheets("工作表1").Name = username
     ChDir "C:\Users\user\Desktop"
     
     ActiveWorkbook.SaveAs Filename:="C:\Users\user\Desktop\" & username & ".xlsm", _
